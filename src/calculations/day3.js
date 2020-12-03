@@ -11,6 +11,7 @@ export const resultDay3Part1 = () => {
         if (x >= rowLength) {
             x -= rowLength
         }
+        return x;
     });
     return (path.match(new RegExp("#", "g")) || []).length;
 }
@@ -34,8 +35,9 @@ export const resultDay3Part2 = () => {
             if (x >= rowLength) {
                 x -= rowLength
             }
+            return x;
         });
-        multipliedTrees *= (path.match(new RegExp("#", "g")) || []).length;
+        return multipliedTrees *= (path.match(new RegExp("#", "g")) || []).length;
     });
     return multipliedTrees;
 }
