@@ -1,4 +1,4 @@
-import {inputDay1} from "../data/1_1";
+import {inputDay1} from "../data/1";
 
 export const resultDay1Part1 = () => {
     const sumArray = inputDay1.map((numberOne) => inputDay1.filter((numberTwo) => ((numberOne + numberTwo) === 2020)))
