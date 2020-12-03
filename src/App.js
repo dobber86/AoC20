@@ -1,8 +1,8 @@
+import React from "react";
 import './App.css';
 import {resultDay1Part1, resultDay1Part2} from "./calculations/day1";
 import {resultDay2Part1, resultDay2Part2} from "./calculations/day2";
 import {resultDay3Part1, resultDay3Part2} from "./calculations/day3";
-import React from "react";
 
 const App = () => {
     const results = [
@@ -23,13 +23,20 @@ const App = () => {
                 </a>
                 <p>dobber86 answers</p>
             </header>
-            {results.map(({day, part1, part2}) => {
-                return (
-                    <div>
-                        Dag {day}: {part1} en {part2}
-                    </div>
-                );
-            })}
+            <div className="tableWrapper">
+                <table className="table">
+                    {results.map(({day, part1, part2}) => {
+                        return (
+                            <tr key={day}>
+                                <td>Dag {day}:</td>
+                                <td>{part1}</td>
+                                <td>en</td>
+                                <td>{part2}</td>
+                            </tr>
+                        );
+                    })}
+                </table>
+            </div>
         </div>
     );
 }
