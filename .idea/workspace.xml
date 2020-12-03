@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f428ac-fe63-4411-a320-e6c6e8094db6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_utils/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculations/day1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculations/day2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/1_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/adventofcode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <workItem from="1606902516229" duration="970000" />
       <workItem from="1606981780196" duration="3631000" />
       <workItem from="1606988123788" duration="5077000" />
-      <workItem from="1606994737300" duration="5761000" />
+      <workItem from="1606994737300" duration="6642000" />
     </task>
     <servers />
   </component>
