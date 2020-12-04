@@ -10,7 +10,7 @@ const App = () => {
         {day: 1, part1: resultDay1Part1(), part2: resultDay1Part2()},
         {day: 2, part1: resultDay2Part1(), part2: resultDay2Part2()},
         {day: 3, part1: resultDay3Part1(), part2: resultDay3Part2()},
-        {day: 4, part1: resultDay4Part1(), part2: resultDay4Part2()},
+        {day: 4, part1: resultDay4Part1, part2: resultDay4Part2()},
     ]
     return (
         <div className="App">
