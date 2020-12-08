@@ -6,6 +6,7 @@ import {resultDay3Part1, resultDay3Part2} from "./calculations/day3";
 import {resultDay4Part1, resultDay4Part2} from "./calculations/day4";
 import {resultDay5Part1, resultDay5Part2} from "./calculations/day5";
 import {resultDay7Part1, resultDay7Part2} from "./calculations/day7";
+import {resultDay8Part1, resultDay8Part2} from "./calculations/day8";
 
 const App = () => {
     const results = [
@@ -15,6 +16,7 @@ const App = () => {
         {day: 4, part1: resultDay4Part1, part2: resultDay4Part2()},
         {day: 5, part1: resultDay5Part1, part2: resultDay5Part2()},
         {day: 7, part1: resultDay7Part1, part2: resultDay7Part2},
+        {day: 8, part1: resultDay8Part1, part2: resultDay8Part2},
     ]
     return (
         <div className="App">
